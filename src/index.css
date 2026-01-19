@@ -6,9 +6,9 @@
     list-style: none;
     box-sizing: border-box;
     text-decoration: none
-
 }
-:root{
+
+:root {
     --color-bg: rgb(4, 4, 110);
     --color-bg-variant: rgb(2, 86, 255);
     --color-primary: rgb(67, 148, 255);
@@ -20,57 +20,73 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-sm:90%;
+    --container-width-sm: 90%;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
-    display:none;
+
+::-webkit-scrollbar {
+    display: none;
 }
-body{
-    font-family: 'Poppins', sans-serif;
+
+body {
+    font-family: 'Times New Roman', Times, serif;
     background: var(--color-bg);
     color: var(--color-white);
-    line-height:1.7;
+    line-height: 1.7;
 }
 
 
-.container{
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 
 }
-h1,h2,h3,h4,h5{
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 500;
 }
-h1{
+
+h1 {
     font-size: 2.5rem;
     color: yellow;
 }
 
-section{
-    margin-top:8rem;
-    height: 100vh;
+section {
+    margin-top: 8rem;
+    height: auto;
 }
-section >h2, section>h5{
+
+section>h2,
+section>h5 {
     text-align: center;
 }
-section > h2{
+
+section>h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
 }
-.text-light{
+
+.text-light {
     color: var(--color-light);
 }
-a{
+
+a {
     color: var(--color-primary);
     transition: var(--transition);
 }
-a:hover{
+
+a:hover {
     color: var(--color-white)
 }
-.btn{
+
+.btn {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -80,37 +96,42 @@ a:hover{
     border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
-.btn:hover{
+
+.btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
 }
-.btn-primary{
+
+.btn-primary {
     background: var(--color-primary);
     color: var(--color-bgw)
 }
-img{
+
+img {
     display: block;
     width: 100%;
     object-fit: cover;
 
 }
+
 /* Media Queries */
-@media screen and (max-width:1024px){
-    .container{
-        width:var(--container-width-md)
+@media screen and (max-width:1024px) {
+    .container {
+        width: var(--container-width-md)
     }
-    section{
+
+    section {
         margin-top: 6rem;
     }
 }
-@media screen and (max-width: 600px){
-    .container{
-        width:var(--container-width-sm)
 
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm)
     }
-    section >h2{
+
+    section>h2 {
         margin-bottom: 2rem;
     }
 }
-

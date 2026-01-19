@@ -1,145 +1,92 @@
 import React from 'react'
 import './Services.css'
-import {AiOutlineCheck} from 'react-icons/ai'
+import { AiOutlineCheck } from 'react-icons/ai'
 
 const Services = () => {
   return (
-    <section id = 'services'>
-      <h5>What I know</h5>
-      <h2>My Curriculars</h2>
-      <div className = 'container services__container'>
-        <article className = 'service'>
-          <div className = 'service__head'>
-            <h3>Music</h3>
+    <section id='services'>
+      <h5>My Journey</h5>
+      <h2>Work Experience</h2>
+      <div className='container services__container'>
+        <article className='service'>
+          <div className='service__head'>
+            <h3>Kortex</h3>
+            <p className='service__role'>Frontend Developer & E2E Tester</p>
           </div>
-          <ul className = 'service__list'>
-          <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I have played piano for 10+ years</p>
+          <ul className='service__list'>
+            <li>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Developed and maintained Kortex, a note taking application.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I'm piano RCM lvl.10</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Performed E2E testing with Playwright to improve reliability.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>Winnipeg Music Festival piano honour roll</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Automated interaction testing and reported defects.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I'm keyboard in junior jazz band</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Refined frontend structures and streamlined codebase.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I'm clarinet in senior jazz band</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>Contributed great music at Tribute dinner</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I'm clarinet in concert band</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>Performed great music at school concert</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I'm clarinet in chamber wind ensemble</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>Performed in many events and festivals</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Collaborated via GitHub with branching and PR workflows.</p>
             </li>
           </ul>
         </article>
 
-        <article className = 'service'>
-          <div className = 'service__head'>
-            <h3>Programming</h3>
+        <article className='service'>
+          <div className='service__head'>
+            <h3>UW Orbital Design Team</h3>
+            <p className='service__role'>Ground Station Team</p>
           </div>
-          <ul className = 'service__list'>
+          <ul className='service__list'>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I started to code in grade 8</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Developed backend features for spacecraft command management.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>C++ was the first coding language I learned</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Implemented data validation for command parameters.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>Participated in an Unity game with my friend</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Built FastAPI routes to create, view, and delete commands.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I have learned Python since grade 9</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Managed command data storage using SQLModel.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I joined Coding club in my school</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I was interested in solving coding questions</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I participated in coding contest and achieved top 25%</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I started to learn web-development in grade 10</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I can code with HTML, Javascrip and CSS</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I made another program for my school called Pauly</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Implemented logging and status tracking for debugging.</p>
             </li>
           </ul>
         </article>
 
-        <article className = 'service'>
-          <div className = 'service__head'>
-            <h3>Sports</h3>
+        <article className='service'>
+          <div className='service__head'>
+            <h3>Student Council Web Manager</h3>
+            <p className='service__role'>St. Paul’s High School</p>
           </div>
-          <ul className = 'service__list'>
+          <ul className='service__list'>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I participated in school basketball team in grade 6</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Designed and maintained school website for updates.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I started to play football in grade 8 for Charleswood Broncos</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Implemented React layouts and responsive CSS.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>We went to the final and I was awarded the best offense linemen</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Improved accessibility and navigation for users.</p>
             </li>
             <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I joined St.James Seals swimming club</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I joined school junior varsity football team in grade 10</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I was a defensive back but we stopped at the semifinal game</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I joined school varsity football team in grade 11</p>
-            </li>
-            <li>
-              <AiOutlineCheck className = 'service__list-icon'/>
-              <p>I became a linebacker but we were disqualified again at the semifinal game</p>
+              <AiOutlineCheck className='service__list-icon' />
+              <p>Collaborated with council to publish content.</p>
             </li>
           </ul>
         </article>

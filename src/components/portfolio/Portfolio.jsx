@@ -1,72 +1,41 @@
 import React from 'react'
 import './Portfolio.css'
-import img1 from '../../assets/Cayley honour roll.png'
-import img2 from '../../assets/myprotofolio.png'
-import img3 from '../../assets/Pualysceenshot.png'
-import img4 from '../../assets/valentine.png'
-import img5 from '../../assets/digitext.png'
-import img6 from '../../assets/student council.png'
+import trueLight from '../../assets/true_light.png'
+import chessAi from '../../assets/chess_ai.png'
 
 
 const Portfolio = () => {
   return (
-    <section id = 'portfolio'>
-      <h5>What I have done</h5>
-      <h2>My Accompishment</h2>
+    <section id='portfolio'>
+      <h5>My Recent Work</h5>
+      <h2>Projects</h2>
 
-      <div className = 'container portfolio__container'>
-        <article className = 'portfolio__item'>
-          <div className = 'portfolio__item-image'>
-            <img src={img1} alt = ''/>
+      <div className='container portfolio__container'>
+        <article className='portfolio__item'>
+          <div className='portfolio__item-image'>
+            <img src={trueLight} alt='True Light App' />
           </div>
-          <h3>Cayley math contest honur roll</h3>
-          <div className = 'portfolio__item-cta'>
-            <a href = 'https://www.cemc.uwaterloo.ca/contests/past_contests/2023/2023CayleyResults.pdf' className = 'btn btn-primary' target = '_blank'>Learn More</a>
-          </div>
-        </article>
-        <article className = 'portfolio__item'>
-          <div className = 'portfolio__item-image'>
-            <img src={img5} alt = ''/>
-          </div>
-          <h3>"Digi text" program for the school</h3>
-          <div className = 'portfolio__item-cta'>
-          <a href = 'https://www.digitext.ca/#/' className = 'btn' target = '_blank'>Learn More</a>
+          <h3>True Light</h3>
+          <p className="portfolio__item-desc">
+            Real-time mobile accessibility app for colorblind and low-vision users.
+            Built with React (Expo), FastAPI, NextJS, OpenCV.
+          </p>
+          <div className='portfolio__item-cta'>
+            <a href='https://github.com/KrishP147/truelight' className='btn btn-primary' target='_blank' rel='noreferrer'>Github</a>
           </div>
         </article>
-        <article className = 'portfolio__item'>
-          <div className = 'portfolio__item-image'>
-            <img src={img3} alt = ''/>
+
+        <article className='portfolio__item'>
+          <div className='portfolio__item-image'>
+            <img src={chessAi} alt='Chess AI' />
           </div>
-          <h3>"Pauly" website for the school</h3>
-          <div className = 'portfolio__item-cta'>
-            <a href = 'https://paulysphs.ca' className = 'btn btn-primary' target = '_blank'>Learn More</a>
-          </div>
-        </article>
-        <article className = 'portfolio__item'>
-          <div className = 'portfolio__item-image'>
-            <img src={img2} alt = ''/>
-          </div>
-          <h3>I made my own Protofolio website</h3>
-          <div className = 'portfolio__item-cta'>
-            <a href = 'https://github.com/tianzeyin/Tianze-Yin' className = 'btn' target = '_blank'>Learn More</a>
-          </div>
-        </article>
-        <article className = 'portfolio__item'>
-          <div className = 'portfolio__item-image'>
-            <img src={img4} alt = ''/>
-          </div>
-          <h3>A program to be him</h3>
-          <div className = 'portfolio__item-cta'>
-            <a href = 'https://tianzeyin.github.io/teresa/' className = 'btn btn-primary' target = '_blank'>Learn More</a>
-          </div>
-        </article>
-        <article className = 'portfolio__item'>
-          <div className = 'portfolio__item-image'>
-            <img src={img6} alt = ''/>
-          </div>
-          <h3>Student council website</h3>
-          <div className = 'portfolio__item-cta'>
-            <a href = 'https://tianzeyin.github.io/mewing-academy/' className = 'btn' target = '_blank'>Learn More</a>
+          <h3>Chess AI</h3>
+          <p className="portfolio__item-desc">
+            Chess bot with machine learning capabilities trained on Lichess games.
+            Built with NextJS, Python, and ML algorithms.
+          </p>
+          <div className='portfolio__item-cta'>
+            <a href='https://github.com/tianzeyin/chess_hack' className='btn btn-primary' target='_blank' rel='noreferrer'>Github</a>
           </div>
         </article>
       </div>

@@ -1,67 +1,20 @@
-.about__container{
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+.about__container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
 }
-.about__me{
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
-    display: grid;
-    place-items: center;
 
+.about__content {
+    width: 100%;
 }
-.airplane{
-    border-radius: 2rem;
-    width: 30rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-}
-.about__cards{
+
+.about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-}
-.about__card{
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: 2rem;
-    text-align: center;
-    transition: var(--transition);
-}
-.about__card h5{
-    font-size: 0.95rem;
-}
-.about__card small{
-    font-size: 0.65rem;
-    color: var(--color-light);
-
-}
-.airplane:hover{
-    transform: rotate(0deg);
+    margin-bottom: 3rem;
 }
 
-
-
-
-
-.about__cards{
-    font-size: 1.5rem;
-    margin-right: 5rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-}
-.about__card{
+.about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -69,53 +22,127 @@
     text-align: center;
     transition: var(--transition);
 }
-.about__card:hover{
+
+.about__card:hover {
     background: transparent;
     border-color: var(--color-primary-varient);
     cursor: default;
 }
-.about__icon{
-    color:var(--color-primary);
+
+.about__icon {
+    color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
-.about__card h5{
-    font-size:1rem; 
+
+.about__card h5 {
+    font-size: 0.95rem;
 }
-.about__content p{
-    margin: 2rem 0 2rem;
-    margin-right: 5rem;
+
+.about__card small {
+    font-size: 0.7rem;
     color: var(--color-light);
-
 }
-@media screen and (max-width: 1024px){
-    .about__container{
+
+/* Detailed About Me Sections */
+.about__descriptions {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 5rem;
+}
+
+.about__description-item {
+    background: var(--color-bg-variant);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.about__description-item:hover {
+    background: transparent;
+    border-color: var(--color-primary-varient);
+}
+
+.about__text h3 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.about__text p {
+    color: var(--color-light);
+    margin: 0;
+    line-height: 1.6;
+}
+
+.about__section-image {
+    width: 100%;
+    aspect-ratio: 4/3;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.about__section-image:hover {
+    border-color: var(--color-primary-varient);
+}
+
+.about__section-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.about__section-image img.football-img {
+    object-position: right 35%;
+}
+
+.about__section-image-placeholder {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px dashed var(--color-primary-varient);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-light);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1024px) {
+    .about__container {
         grid-template-columns: 1fr;
-        gap:0
     }
-    .about__me{
-        width: 50%;
-        margin: 2rem auto 4rem;
-    }
-    .about__content{
-        margin: 1rem 0 1.5rem;
 
-    }
-}
-@media screen and (max-width: 600px){
-    .about__me{
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
-    .about__cards{
-        grid-template-columns: 1fr 1fr;
-        gap:1rem;
-    }
-    .about__content{
+    .about__description-item {
+        grid-template-columns: 1fr;
         text-align: center;
     }
-    .about__content p{
-        margin: 1.5rem 0;
+
+    .about__section-image-placeholder {
+        aspect-ratio: 16/9;
+        margin-top: 1rem;
     }
 }
- 
+
+@media screen and (max-width: 600px) {
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__description-item {
+        padding: 1.5rem;
+    }
+}

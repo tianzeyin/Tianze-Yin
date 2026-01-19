@@ -1,47 +1,56 @@
 import React from 'react'
 import './About.css'
-import airplane from '../../assets/90.jpg'
-import {AiOutlineRead} from 'react-icons/ai'
-import {FaAward} from 'react-icons/fa'
-import {GiAmericanFootballPlayer} from 'react-icons/gi'
+import FootballImg from '../../assets/football.JPG'
+import HumanRightsImg from '../../assets/human rights.jpg'
+import UWaterlooImg from '../../assets/e7.avif'
 
 
 const About = () => {
   return (
-    <section id = 'about'>
+    <section id='about'>
       <h2>About Me</h2>
-      <div className = 'container, about__container'>
-        <div className = 'about__me'>
-          <div className = 'airplane'>
-            <img src = {airplane} alt = 'About Image'/>
+      <div className='container about__container'>
+
+
+        <div className="about__descriptions">
+          <div className="about__description-item">
+            <div className="about__text">
+              <h3>🏈 Sports</h3>
+              <p>
+                I am a committed student athlete who plays linebacker on my school football team. Football has taught me discipline, resilience, and the importance of teamwork under pressure. Competing in high intensity environments has strengthened my leadership, communication, and ability to perform consistently as part of a team skills I carry into both academics and engineering projects.
+              </p>
+            </div>
+            <div className="about__section-image">
+              <img src={FootballImg} alt="Football" className="football-img" />
+            </div>
+          </div>
+          <div className="about__description-item">
+            <div className="about__text">
+              <h3>🌍 Social Impact & Leadership</h3>
+              <p>
+                I serve as an ambassador at the Canadian Museum for Human Rights, where I engage with visitors, support educational initiatives, and help communicate complex human rights topics to diverse audiences. This role has strengthened my public speaking, empathy, and responsibility, and reinforced my commitment to ethical leadership and community engagement.
+              </p>
+            </div>
+            <div className="about__section-image">
+              <img src={HumanRightsImg} alt="Human Rights" />
+            </div>
+          </div>
+          <div className="about__description-item">
+            <div className="about__text">
+              <h3>🎓 Academics & Engineering</h3>
+              <p>
+                I am a Computer Engineering student at the University of Waterloo with a strong interest in software systems, backend development, and applied problem-solving. I enjoy building real-world applications, working in collaborative technical teams, and continuously improving my skills through projects, hackathons, and design teams.
+              </p>
+            </div>
+            <div className="about__section-image">
+              <img src={UWaterlooImg} alt="Academics & Engineering" />
+            </div>
           </div>
         </div>
 
-        <div className = 'about__content'>
-          <div className = 'about__cards'>
-            <article className = 'about__card'>
-              <AiOutlineRead className = 'about__icons'/>
-              <h5>Education</h5>
-              <small>Diverse education</small>
-            </article>
-            <article className = 'about__card'>
-              <FaAward className = 'about__icons'/>
-              <h5>Experience</h5>
-              <small>5+ coding languages</small>
-            </article>
-            <article className = 'about__card'>
-              <GiAmericanFootballPlayer className = 'about__icons'/>
-              <h5>Activities</h5>
-              <small>Variety of sports and clubs</small>
-            </article>
-          </div>
-          <p>
-          I'm a student from St.Paul's High School who aims to be an engineer in the future. As a Chinese student who came to Canada in grade 6, I'm diversely educated and well-suited for math and physics. I'm always interested in coding and mechanics and ready to contribute to the world of engineering.
-          </p>
-          <a href = '#contact' className = 'btn btn-primary'>Contact me</a>
-        </div>
+
       </div>
-    </section>
+    </section >
   )
 }
 

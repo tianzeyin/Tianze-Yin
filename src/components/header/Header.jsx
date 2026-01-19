@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
-import PicofTianze from '../../assets/PicofTianze.jpg'
+import ME from '../../assets/tianze_good.JPG'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
@@ -10,13 +10,13 @@ const Header = () => {
       <div className='container header_container'>
         <h5>Hello, I am</h5>
         <h1>Tianze Yin</h1>
-        <h5 className = 'text-light'>The genius</h5>
+        <h5 className='text-light'>Computer Engineering Student</h5>
         <CTA></CTA>
-        <HeaderSocials/>
+        <HeaderSocials />
         <div className='me'>
-          <img src = {PicofTianze} alt = 'me'/>
+          <img src={ME} alt='me' />
         </div>
-        <a href = '#contact' className='scroll_down'>Scroll down</a>
+        <a href='#contact' className='scroll_down'>Scroll down</a>
       </div>
     </header>
   )
