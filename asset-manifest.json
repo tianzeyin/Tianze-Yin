@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Tianze-Yin/static/css/main.8575b106.css",
+    "main.js": "/Tianze-Yin/static/js/main.03633d45.js",
+    "static/media/tianze_good.JPG": "/Tianze-Yin/static/media/tianze_good.f2ecc843c50b87f49dac.JPG",
+    "static/media/football.JPG": "/Tianze-Yin/static/media/football.79a9ed38e34db55217de.JPG",
+    "static/media/chess_ai.png": "/Tianze-Yin/static/media/chess_ai.4f93752ec681b30b7281.png",
+    "static/media/true_light.png": "/Tianze-Yin/static/media/true_light.d33b905bb987eb7b108e.png",
+    "static/media/mrcook.png": "/Tianze-Yin/static/media/mrcook.f6feb71dc9f8957bf8ac.png",
+    "static/media/e7.avif": "/Tianze-Yin/static/media/e7.6b361c3968589024b389.avif",
+    "static/media/resume.pdf": "/Tianze-Yin/static/media/resume.c20062948cef91a32038.pdf",
+    "static/media/Latimer.png": "/Tianze-Yin/static/media/Latimer.6deed1b0b73ee19c1490.png",
+    "static/media/human rights.jpg": "/Tianze-Yin/static/media/human rights.6a70250c1a883f8218d8.jpg",
+    "static/media/JetEngine.avif": "/Tianze-Yin/static/media/JetEngine.ff30adcd924883f015dd.avif",
+    "index.html": "/Tianze-Yin/index.html",
+    "main.8575b106.css.map": "/Tianze-Yin/static/css/main.8575b106.css.map",
+    "main.03633d45.js.map": "/Tianze-Yin/static/js/main.03633d45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8575b106.css",
+    "static/js/main.03633d45.js"
+  ]
+}
