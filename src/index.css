@@ -9,18 +9,26 @@
 }
 
 :root {
-    --color-bg: rgb(4, 4, 110);
-    --color-bg-variant: rgb(2, 86, 255);
-    --color-primary: rgb(67, 148, 255);
-    --color-primary-variant: rgb(93, 93, 181);
-    --color-white: white;
-    --color-light: lightgrey;
+    --color-bg: #0f172a;
+    --color-bg-gradient: linear-gradient(135deg, #0f172a 0%, #172554 100%);
+    --color-bg-variant: rgba(255, 255, 255, 0.05);
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-neon: #00f3ff;
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.7);
 
     --transition: all 400ms ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+    --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    --neon-glow: 0 0 10px var(--color-neon);
+    --font-code: 'Courier New', Courier, monospace;
 }
 
 html {
@@ -33,9 +41,15 @@ html {
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background: var(--color-bg);
+    background-color: var(--color-bg);
+    background-image:
+        radial-gradient(circle at 15% 50%, rgba(77, 181, 255, 0.08), transparent 25%),
+        radial-gradient(circle at 85% 30%, rgba(0, 243, 255, 0.08), transparent 25%),
+        var(--color-bg-gradient);
+    background-attachment: fixed;
     color: var(--color-white);
     line-height: 1.7;
+    min-height: 100vh;
 }
 
 
@@ -89,23 +103,27 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-neon);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-neon);
     transition: var(--transition);
+    background: rgba(0, 243, 255, 0.05);
+    font-family: var(--font-code);
 }
 
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
+    background: var(--color-neon);
+    color: #1f1f38;
+    /* Dark text on neon */
     border-color: transparent;
+    box-shadow: 0 0 10px var(--color-neon);
 }
 
 .btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bgw)
+    background: var(--color-neon);
+    color: #1f1f38;
 }
 
 img {
@@ -113,6 +131,32 @@ img {
     width: 100%;
     object-fit: cover;
 
+}
+
+/* Glassmorphism Utility */
+.glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: var(--glass-border);
+    box-shadow: var(--glass-shadow);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeInUp 0.8s ease forwards;
 }
 
 /* Media Queries */

@@ -8,6 +8,25 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
+    padding-top: 1rem;
+}
+
+header h5 {
+    color: var(--color-light);
+    font-family: var(--font-code);
+}
+
+header h1 {
+    color: var(--color-white);
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.3);
+    /* Subtle glow */
+    margin-bottom: 0.5rem;
+}
+
+header h5.text-light {
+    color: var(--color-neon);
+    letter-spacing: 2px;
+    font-weight: 300;
 }
 
 .cta {
@@ -31,7 +50,9 @@ header {
     content: '';
     width: 2px;
     height: 5rem;
-    background-color: var(--color-primary);
+    background-color: var(--color-neon);
+    box-shadow: 0 0 10px var(--color-neon);
+    /* Neon glow */
 }
 
 .me {

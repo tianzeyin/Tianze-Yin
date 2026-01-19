@@ -6,25 +6,24 @@
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: var(--glass-border);
     padding: 1.5rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
     transition: var(--transition);
     flex: 0 1 30%;
     min-width: 300px;
     text-align: center;
-    /* Center text inside the card */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Add subtle shadow */
+    box-shadow: var(--glass-shadow);
 }
 
 .portfolio__item:hover {
-    border-color: var(--color-primary-varient);
+    border-color: var(--color-neon);
     background: transparent;
     transform: translateY(-10px);
-    /* Lift effect */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 243, 255, 0.25);
 }
 
 .portfolio__item-image {
@@ -37,8 +36,8 @@
     margin-bottom: 1rem;
     font-weight: 800;
     font-size: 1.5rem;
-    color: var(--color-primary);
-    /* Changed to primary color for better visibility */
+    color: var(--color-white);
+    font-family: var(--font-code);
 }
 
 .portfolio__item-desc {
