@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/Tianze-Yin/static/css/main.cd4aac54.css",
-    "main.js": "/Tianze-Yin/static/js/main.27820528.js",
-    "static/media/student council.png": "/Tianze-Yin/static/media/student council.5e3bedb7240d878afa97.png",
-    "static/media/valentine.png": "/Tianze-Yin/static/media/valentine.a1b50aedc493450f0a30.png",
-    "static/media/Pualysceenshot.png": "/Tianze-Yin/static/media/Pualysceenshot.e9593315e6c168b63a35.png",
-    "static/media/myprotofolio.png": "/Tianze-Yin/static/media/myprotofolio.0038d878c182127422ef.png",
+    "main.css": "/Tianze-Yin/static/css/main.8575b106.css",
+    "main.js": "/Tianze-Yin/static/js/main.03633d45.js",
+    "static/media/tianze_good.JPG": "/Tianze-Yin/static/media/tianze_good.f2ecc843c50b87f49dac.JPG",
+    "static/media/football.JPG": "/Tianze-Yin/static/media/football.79a9ed38e34db55217de.JPG",
+    "static/media/chess_ai.png": "/Tianze-Yin/static/media/chess_ai.4f93752ec681b30b7281.png",
+    "static/media/true_light.png": "/Tianze-Yin/static/media/true_light.d33b905bb987eb7b108e.png",
     "static/media/mrcook.png": "/Tianze-Yin/static/media/mrcook.f6feb71dc9f8957bf8ac.png",
-    "static/media/digitext.png": "/Tianze-Yin/static/media/digitext.694f55e05895737ea2a3.png",
-    "static/media/Cayley honour roll.png": "/Tianze-Yin/static/media/Cayley honour roll.abcbe8ba3dc1b21a0f12.png",
+    "static/media/e7.avif": "/Tianze-Yin/static/media/e7.6b361c3968589024b389.avif",
+    "static/media/resume.pdf": "/Tianze-Yin/static/media/resume.c20062948cef91a32038.pdf",
     "static/media/Latimer.png": "/Tianze-Yin/static/media/Latimer.6deed1b0b73ee19c1490.png",
-    "static/media/PicofTianze.jpg": "/Tianze-Yin/static/media/PicofTianze.db5eeb5fd36b4b747939.jpg",
-    "static/media/90.jpg": "/Tianze-Yin/static/media/90.cd4581c866a0237191ef.jpg",
+    "static/media/human rights.jpg": "/Tianze-Yin/static/media/human rights.6a70250c1a883f8218d8.jpg",
     "static/media/JetEngine.avif": "/Tianze-Yin/static/media/JetEngine.ff30adcd924883f015dd.avif",
-    "static/media/CV(example).docx": "/Tianze-Yin/static/media/CV(example).77fe62d1fdbdf2ea3846.docx",
     "index.html": "/Tianze-Yin/index.html",
-    "main.cd4aac54.css.map": "/Tianze-Yin/static/css/main.cd4aac54.css.map",
-    "main.27820528.js.map": "/Tianze-Yin/static/js/main.27820528.js.map"
+    "main.8575b106.css.map": "/Tianze-Yin/static/css/main.8575b106.css.map",
+    "main.03633d45.js.map": "/Tianze-Yin/static/js/main.03633d45.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd4aac54.css",
-    "static/js/main.27820528.js"
+    "static/css/main.8575b106.css",
+    "static/js/main.03633d45.js"
   ]
 }
