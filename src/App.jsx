@@ -175,7 +175,11 @@ function App() {
         <header id="top" className="hero">
           <div className="hero-copy">
             <p className="kicker">Computer Engineering · University of Waterloo</p>
-            <h1>Hi, I’m Tianze Yin <span className="wave" aria-hidden="true">👋</span></h1>
+            <h1>
+              <span className="hero-greeting">Hi, I’m</span>{' '}
+              <span className="hero-name">Tianze Yin</span>{' '}
+              <span className="wave" aria-hidden="true">👋</span>
+            </h1>
             <p className="intro">
               I’m a Computer Engineering student at the University of Waterloo who enjoys building{' '}
               <strong>full-stack products</strong>, <strong>backend systems</strong>, and reliable infrastructure.

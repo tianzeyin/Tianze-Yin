@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Tianze-Yin/static/js/main.f9155ef0.js",
-    "main.css": "/Tianze-Yin/static/css/main.c277deba.css",
+    "main.css": "/Tianze-Yin/static/css/main.ca92b1ce.css",
+    "main.js": "/Tianze-Yin/static/js/main.910569c4.js",
     "static/media/Edge7.JPG": "/Tianze-Yin/static/media/Edge7.d4ebeb61e11288ee67be.JPG",
     "static/media/football.JPG": "/Tianze-Yin/static/media/football.79a9ed38e34db55217de.JPG",
     "static/media/chess_ai.png": "/Tianze-Yin/static/media/chess_ai.4f93752ec681b30b7281.png",
@@ -14,11 +14,11 @@
     "static/media/kortex-logo.png": "/Tianze-Yin/static/media/kortex-logo.1a0b7db60b4d36bcd36a.png",
     "static/media/uw-orbital-logo.jpeg": "/Tianze-Yin/static/media/uw-orbital-logo.3b242539429e9e62feb9.jpeg",
     "index.html": "/Tianze-Yin/index.html",
-    "main.f9155ef0.js.map": "/Tianze-Yin/static/js/main.f9155ef0.js.map",
-    "main.c277deba.css.map": "/Tianze-Yin/static/css/main.c277deba.css.map"
+    "main.ca92b1ce.css.map": "/Tianze-Yin/static/css/main.ca92b1ce.css.map",
+    "main.910569c4.js.map": "/Tianze-Yin/static/js/main.910569c4.js.map"
   },
   "entrypoints": [
-    "static/js/main.f9155ef0.js",
-    "static/css/main.c277deba.css"
+    "static/css/main.ca92b1ce.css",
+    "static/js/main.910569c4.js"
   ]
 }
